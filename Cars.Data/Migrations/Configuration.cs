@@ -24,6 +24,7 @@ namespace Cars.Data.Migrations
             context.Manufacturers.AddOrUpdate(item => item.id, new Manufacturer() { Country = "USA", Name = "Bob" });
             context.Manufacturers.AddOrUpdate(item => item.id, new Manufacturer() { Country = "Germany", Name = "Bob2" });
             context.Manufacturers.AddOrUpdate(item => item.id, new Manufacturer() { Country = "Australia", Name = "Bob3" });
+            context.Manufacturers.AddOrUpdate(item => item.id, new Manufacturer() { Country = "Latvia", Name = "Bob4" });
 
         }
     }
